@@ -1,0 +1,13 @@
+name = "smith-bank"
+main = ".output/server/index.mjs"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".output/public"
+binding = "ASSETS"
+[vars]
+SUPABASE_URL = "https://wojoksfktuulxpqlclns.supabase.co"
+SUPABASE_PUBLISHABLE_KEY = "sb_publishable_xShETpi5yObnNe8AejbzWg_XStsvC9F"
+VITE_SUPABASE_URL = "https://wojoksfktuulxpqlclns.supabase.co"
+VITE_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_xShETpi5yObnNe8AejbzWg_XStsvC9F"
