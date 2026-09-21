@@ -234,11 +234,11 @@ function LoginPage() {
             </div>
           </form>
 
-          <div className="flex flex-col justify-center text-slate-900">
+          <div className="flex flex-col justify-center text-white">
             <h1 className="text-3xl font-light md:text-4xl">Welcome back to</h1>
             <h2 className="mt-1 text-4xl font-bold md:text-5xl">Smith bank</h2>
             <div className="mt-3 h-1 w-16 rounded bg-[#FFCD00]" />
-            <p className="mt-6 max-w-md text-slate-700">
+            <p className="mt-6 max-w-md text-white/90">
               Securely access your accounts, transfer funds, pay bills, and manage your finances all in one place.
             </p>
             <div className="mt-10 hidden md:block">
