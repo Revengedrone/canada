@@ -16,8 +16,8 @@ const NAV_LINKS: { label: string; to?: string }[] = [
 function Logo() {
   return (
     <Link to="/dashboard" className="flex items-center gap-2">
-      <img src="/logoo.png" alt="Logo" className="h-7 w-7 shrink-0 object-contain sm:h-8 sm:w-8" />
-      <span className="text-base font-extrabold tracking-tight text-[#D71E28] sm:text-xl">Wells Fargo</span>
+      <img src="/logo.png" alt="Logo" className="h-7 w-7 shrink-0 object-contain sm:h-8 sm:w-8" />
+      <span className="text-base font-extrabold tracking-tight text-[#D71E28] sm:text-xl">Smith bank</span>
     </Link>
   );
 }
@@ -81,7 +81,7 @@ export function AppFooter() {
   return (
     <footer className="mt-auto border-t border-slate-100 bg-white">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-4 gap-y-2 px-4 py-4 text-xs text-slate-500 sm:px-6">
-        <span>© 2026 Wells Fargo. All rights reserved.</span>
+        <span>© 2026 Smith bank. All rights reserved.</span>
         <span className="hidden sm:inline">|</span>
         <a href="#" className="text-[#D71E28]">Privacy Policy</a>
         <a href="#" className="text-[#D71E28]">Terms of Use</a>

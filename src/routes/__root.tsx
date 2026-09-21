@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sign in — Wells Fargo" },
-      { name: "description", content: "Securely sign in to your Wells Fargo accounts." },
-      { property: "og:title", content: "Sign in — Wells Fargo" },
-      { property: "og:description", content: "Securely sign in to your Wells Fargo accounts." },
+      { title: "Sign in — Smith bank" },
+      { name: "description", content: "Securely sign in to your Smith bank accounts." },
+      { property: "og:title", content: "Sign in — Smith bank" },
+      { property: "og:description", content: "Securely sign in to your Smith bank accounts." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Sign in — Wells Fargo" },
-      { name: "twitter:description", content: "Securely sign in to your Wells Fargo accounts." },
+      { name: "twitter:title", content: "Sign in — Smith bank" },
+      { name: "twitter:description", content: "Securely sign in to your Smith bank accounts." },
     ],
     links: [
       {

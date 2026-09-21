@@ -10,8 +10,8 @@ export const Route = createFileRoute("/_authenticated/transfer")({
   component: TransferPage,
   head: () => ({
     meta: [
-      { title: "Transfer & Pay — Wells Fargo" },
-      { name: "description", content: "Transfer money, pay bills, and send funds from Wells Fargo." },
+      { title: "Transfer & Pay — Smith bank" },
+      { name: "description", content: "Transfer money, pay bills, and send funds from Smith bank." },
     ],
   }),
 });
