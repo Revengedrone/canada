@@ -129,6 +129,7 @@ function LoginPage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <img src={cityImg} alt="" className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-black/30" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
           {/* Card */}
           <form onSubmit={onSubmit} className="mx-auto w-full max-w-md rounded-2xl bg-white p-8 shadow-2xl">
