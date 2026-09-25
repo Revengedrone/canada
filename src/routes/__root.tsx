@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sign in — Smith Bank" },
-      { name: "description", content: "Securely sign in to your Smith Bank accounts." },
-      { property: "og:title", content: "Sign in — Smith Bank" },
-      { property: "og:description", content: "Securely sign in to your Smith Bank accounts." },
+      { title: "Sign in — ScotiaBank" },
+      { name: "description", content: "Securely sign in to your ScotiaBank accounts." },
+      { property: "og:title", content: "Sign in — ScotiaBank" },
+      { property: "og:description", content: "Securely sign in to your ScotiaBank accounts." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Sign in — Smith Bank" },
-      { name: "twitter:description", content: "Securely sign in to your Smith Bank accounts." },
+      { name: "twitter:title", content: "Sign in — ScotiaBank" },
+      { name: "twitter:description", content: "Securely sign in to your ScotiaBank accounts." },
     ],
     links: [
       {

@@ -9,8 +9,8 @@ export const Route = createFileRoute("/_authenticated/accounts")({
   component: AccountsPage,
   head: () => ({
     meta: [
-      { title: "Accounts — Smith Bank" },
-      { name: "description", content: "View all of your Smith Bank accounts and balances." },
+      { title: "Accounts — ScotiaBank" },
+      { name: "description", content: "View all of your ScotiaBank accounts and balances." },
     ],
   }),
 });
