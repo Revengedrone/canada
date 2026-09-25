@@ -10,8 +10,8 @@ export const Route = createFileRoute("/")({
   component: LoginPage,
   head: () => ({
     meta: [
-      { title: "Sign in — The Bank of Nova Scotia" },
-      { name: "description", content: "Securely sign in to your The Bank of Nova Scotia accounts." },
+      { title: "Sign in — Smith Bank" },
+      { name: "description", content: "Securely sign in to your Smith Bank accounts." },
     ],
   }),
   beforeLoad: async () => {
@@ -25,7 +25,7 @@ function Logo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
       <img src="/logo.png" alt="Logo" className="h-7 w-7 shrink-0 object-contain sm:h-8 sm:w-8" />
-      <span className="text-xl font-extrabold tracking-tight text-[#D71E28]">The Bank of Nova Scotia</span>
+      <span className="text-xl font-extrabold tracking-tight text-[#D71E28]">Smith Bank</span>
     </div>
   );
 }
@@ -134,13 +134,18 @@ function LoginPage() {
           {/* Card */}
           <form onSubmit={onSubmit} className="mx-auto w-full max-w-md rounded-2xl bg-white p-8 shadow-2xl">
             <div className="flex flex-col items-center">
-              <img src="/logo.png" alt="The Bank of Nova Scotia" className="h-16 w-16 object-contain" />
-              <h3 className="mt-3 text-2xl font-bold text-slate-900">
-                {mode === "signin" ? "Welcome" : "Create your account"}
-              </h3>
-              <p className="text-sm text-slate-500">
-                {mode === "signin" ? "Sign in to continue to The Bank of Nova Scotia" : "Sign up to get started with The Bank of Nova Scotia"}
-              </p>
+              <img src="/logo.png" alt="Smith Bank" className="h-16 w-16 object-contain" />
+              {mode === "signin" ? (
+                <>
+                  <h3 className="mt-3 text-2xl font-bold text-slate-900">Welcome to</h3>
+                  <h2 className="text-3xl font-extrabold text-[#D71E28]">Smith Bank</h2>
+                </>
+              ) : (
+                <>
+                  <h3 className="mt-3 text-2xl font-bold text-slate-900">Create your account</h3>
+                  <p className="text-sm text-slate-500">Sign up to get started with Smith Bank</p>
+                </>
+              )}
             </div>
 
             <div className="mt-6 space-y-4">
@@ -237,7 +242,7 @@ function LoginPage() {
 
           <div className="flex flex-col justify-center text-white">
             <h1 className="text-3xl font-light md:text-4xl">Welcome back to</h1>
-            <h2 className="mt-1 text-4xl font-bold md:text-5xl">The Bank of Nova Scotia</h2>
+            <h2 className="mt-1 text-4xl font-bold md:text-5xl">Smith Bank</h2>
             <div className="mt-3 h-1 w-16 rounded bg-[#FFCD00]" />
             <p className="mt-6 max-w-md text-white/90">
               Securely access your accounts, transfer funds, pay bills, and manage your finances all in one place.
@@ -272,7 +277,7 @@ function LoginPage() {
       <footer className="border-t border-slate-100 bg-white">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-4 gap-y-2 px-6 py-4 text-xs text-slate-500">
           <span className="flex items-center gap-1"><Lock className="h-3 w-3" /> SSL Secured</span>
-          <span>|</span><span>© 2026 The Bank of Nova Scotia. All rights reserved.</span>
+          <span>|</span><span>© 2026 Smith Bank. All rights reserved.</span>
           <span>|</span><a href="#" className="text-[#D71E28]">Privacy Policy</a>
           <a href="#" className="text-[#D71E28]">Terms of Use</a>
           <a href="#" className="text-[#D71E28]">Security Center</a>
